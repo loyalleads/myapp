@@ -1,12 +1,13 @@
-import React, {useReducer} from "react";
+import React from "react";
 import { Header } from "./components/Header";
 import { Balance } from "./components/Balance";
 import { IncomeExpances } from "./components/IncomeExpances";
 import { TransactionList } from "./components/TransactionList";
 import { AddTransaction } from "./components/AddTransaction";
+import { ToDo } from "./components/ToDo";
 
 import "./App.css";
-const [] =useReducer();
+// import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <IncomeExpances />
         <TransactionList />
         <AddTransaction />
+        <ToDo />
       </div>
     </div>
   );
